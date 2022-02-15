@@ -73,6 +73,12 @@
                     document.getElementById("atende").textContent = Number(Number(tam_min)-Number(total))+" caracteres";
                 }
             }
+            /*
+                REGRA DE NEGÓCIO
+                O algoritmo ficará contando a quantidade de caracteres dentro dos requisitos faltantes.
+                Ainda que existam 6 ou mais caracteres, se não atender a todos os requisitos o sistema
+                continuará a contabilizar a quantiade de requisitos faltantes.
+            */
         }
     </script>
 </body>
