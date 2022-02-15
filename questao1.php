@@ -10,7 +10,6 @@
     <?php
         // No mock abaixo, colocar o valor desejado para calcular:
         $quantidade = 6; // 6 conforme documento do Desafio;
-        $espaço = 0;
         for($i=1;$i<=6;$i++){
             for($j=$quantidade;$j>$i;$j--){
                 echo '&nbsp;&nbsp;';
